@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:violet;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#1a1a1a;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.abouts {
+     border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    background: #222;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin:15px 0;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background: rgb(83, 255, 4);
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+section{
+    padding:60px 50px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+    flex:1;
+    min-width:200px;
+}
+
+.hire {
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    background: #222;
+}
+
+.experience{
+     border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    background: #222;
+}
+
+
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1a1a1a;
+}
